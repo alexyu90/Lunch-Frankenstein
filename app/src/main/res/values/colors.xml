@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="serialRead">#af6ee8</color>
+    <color name="cloudSearch">#00b4a0</color>
+    <color name="qrReader"> #ff5003</color>
+    <color name="seeWebPlot">#fdd600</color>
+    <color name="authentication">#89a2f6</color>
+    <color name="track">#ff71d4</color>
+    <color name="seeCodePlot">#3ea9fe</color>
+    <color name="main_background">#b0bef3</color>
+</resources>

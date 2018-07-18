@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="1B4F" />
+    <!-- Vendor ID of SparkFun -->
+    <usb-device vendor-id="2341" />
+    <!-- Vendor ID of SparkFun -->
+</resources>

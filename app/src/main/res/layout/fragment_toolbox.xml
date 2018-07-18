@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".ToolboxFragment">
+
+    <View
+        android:layout_width="360dp"
+        android:layout_gravity="center"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:id="@+id/serialRead"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:padding="20dp"
+            android:src="@drawable/read"
+            android:tint="@color/serialRead"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="Serial Read" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:id="@+id/cloudSearch"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/cloud"
+            android:padding="20dp"
+            android:tint="@color/cloudSearch"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="Cloud Search" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:id="@+id/qrReader"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@drawable/camera"
+            android:padding="20dp"
+            android:tint="@color/qrReader"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="QR Reader" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:id="@+id/seeWebPlot"
+        >
+        <ImageView
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:padding="20dp"
+            android:src="@drawable/plot"
+            android:tint="@color/seeWebPlot"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="See Latest Plot"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:id="@+id/seeCodePlot"
+        >
+        <ImageView
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:padding="20dp"
+            android:src="@drawable/code"
+            android:tint="@color/seeCodePlot"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="See Latest Code"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>
